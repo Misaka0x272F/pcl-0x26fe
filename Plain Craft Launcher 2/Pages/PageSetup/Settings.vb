@@ -169,6 +169,7 @@ Public Class Settings
         New Setting("UiHiddenOtherVote", False, OnChanged:=AddressOf PageSetupUI.HiddenRefresh),
         New Setting("UiHiddenOtherAbout", False, OnChanged:=AddressOf PageSetupUI.HiddenRefresh),
         New Setting("UiHiddenOtherTest", False, OnChanged:=AddressOf PageSetupUI.HiddenRefresh),
+        New Setting("UiOpenSourceNoticeShown", False, Source:=Sources.Registry),
         New Setting("VersionAdvanceJvm", "", Source:=Sources.Instance),
         New Setting("VersionAdvanceGame", "", Source:=Sources.Instance),
         New Setting("VersionAdvanceAssets", 0, Source:=Sources.Instance),
